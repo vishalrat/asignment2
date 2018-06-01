@@ -10,6 +10,8 @@ li{
 
 	display: inline;
 	padding-right: 10px;
+	color: white;
+	font-size: 20px;
 
 	
 }
@@ -17,9 +19,9 @@ li{
 .navbar {
     overflow: hidden;
     background-color: white;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    position: fixed; 
+    background:url(../img/11.jpeg) ;
+    width: 100%;
 }
 
 .first img{
@@ -32,7 +34,7 @@ li{
 }
 h1{
 	font-size: 40px;
-	background-color: yellow;
+	color: white;
 	margin-top: 10px;
 	margin-left: 16px;
 }
@@ -43,6 +45,7 @@ p{
 
 .content{
 	float:left;
+
 
 }
 
@@ -71,16 +74,15 @@ ul a:hover{
 }
 
 .ftrclass{
-	color:rgba(255,255,255,.25);
-	background-color: #333;
+	
+	background-color: blue;
 	margin-top: 30px;
 }
 
-table{
+table, th, td{
 	width:100%;
-	margin:auto;
-	border: 5px;
-	border-color: blue;
+	height:100px;
+	border:5px solid
 
 }
 
