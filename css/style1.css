@@ -16,12 +16,15 @@ li{
 	
 }
 
+
+
 .navbar {
     overflow: hidden;
     background-color: white;
     position: fixed; 
     background:url(../img/11.jpeg) ;
     width: 100%;
+    float: right;
 }
 
 .first img{
@@ -29,7 +32,7 @@ li{
 	height: 300px;
 	width:300px;
 	margin-right:  10px;
-	margin-top: 50px;
+	margin-top: 100	px;
 
 }
 h1{
@@ -73,7 +76,7 @@ ul a:hover{
 	margin-left: 170px;
 }
 
-.ftrclass{
+footer{
 	
 	background-color: blue;
 	margin-top: 30px;
